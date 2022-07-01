@@ -1,0 +1,25 @@
+{
+  "name": "lmm-translation-tools",
+  "version": "0.0.7",
+  "description": "一个基于百度Api的翻译工具",
+  "main": "dist/main.js",
+  "bin": {
+    "fy":"dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.0.0",
+    "commander": "^9.3.0",
+    "md5": "^2.3.0"
+  }
+}
